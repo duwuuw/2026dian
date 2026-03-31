@@ -1,0 +1,5 @@
+这里面已经使用了加入位置编码的patchembed进行训练，结果见result文件夹
+
+关于chunkwise形式的GDN，我承认我确实不能自己实现，所以我克隆了GDN官方github，使用了里面的chunk_gated_delta_rule来实现并行计算
+
+我写的GDN-chunkwise在chunk文件夹内
