@@ -92,7 +92,7 @@ class Patchembed(nn.Module):
     def forward(self,x):
         x = self.proj(x)
         x = x.flatten(2).transpose(1,2)
-        x = x + self.pos
+        x = x
         return x
     
 class MLP(nn.Module):
