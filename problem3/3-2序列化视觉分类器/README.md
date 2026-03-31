@@ -1,1 +1,3 @@
-堆叠三层GDN实现，model是GDN代码，train是训练脚本，result是训练结果，evaluate是测试。
+堆叠三层GDN实现，model是GDN代码，train是训练脚本，result是训练结果，
+
+在每一轮训练后都附带在测试集上测试一次，故没有写evaluate脚本
